@@ -1,0 +1,254 @@
+{
+  "friedChicken": [
+    {
+      "id": 1,
+      "imgSrc": "img/ItemIcons/4PFC.png",
+      "altText": "4 piece meal",
+      "items": ["4 Pieces of Chicken", "One Small Side"],
+      "price": "13.49",
+      "title": "4 PIECE MEAL"
+    },
+    {
+      "id": 2,
+      "imgSrc": "img/ItemIcons/6PFC.png",
+      "altText": "6 piece meal",
+      "items": ["6 Pieces of Chicken", "One Large Side"],
+      "price": "17.49",
+      "title": "6 PIECE MEAL"
+    },
+    {
+      "id": 3,
+      "imgSrc": "img/ItemIcons/8PFC.png",
+      "altText": "8 piece meal",
+      "items": ["8 Pieces of Chicken", "Two Small Sides"],
+      "price": "24.89",
+      "title": "8 PIECE MEAL"
+    },
+    {
+      "id": 4,
+      "imgSrc": "img/ItemIcons/12PFC.png",
+      "altText": "12 piece meal",
+      "items": ["12 Pieces of Chicken", "Two Large Sides"],
+      "price": "32.89",
+      "title": "12 PIECE MEAL"
+    },
+    {
+      "id": 5,
+      "imgSrc": "img/ItemIcons/18PFC.png",
+      "altText": "18 piece meal",
+      "items": ["18 Pieces of Chicken", "Three Large Sides"],
+      "price": "52.89",
+      "title": "18 PIECE MEAL"
+    }
+  ],
+  "ChFingerMenu": [
+    {
+      "id": 6,
+      "imgSrc": "img/ItemIcons/PCF6.png",
+      "altText": "6 piece meal",
+      "items": ["6 Chicken Fingers", "One Small Side"],
+      "price": "13.49",
+      "title": "6 PIECE MEAL"
+    },
+    {
+      "id": 7,
+      "imgSrc": "img/ItemIcons/pcf8.png",
+      "altText": "8 piece meal",
+      "items": ["8 Chicken Fingers", "One Large Side"],
+      "price": "17.49",
+      "title": "8 PIECE MEAL"
+    },
+    {
+      "id": 8,
+      "imgSrc": "img/ItemIcons/pcf12.png",
+      "altText": "12 piece meal",
+      "items": ["12 Chicken Fingers", "Two Small Sides"],
+      "price": "24.89",
+      "title": "12 PIECE MEAL"
+    },
+    {
+      "id": 9,
+      "imgSrc": "img/ItemIcons/pcf16.png",
+      "altText": "16 piece meal",
+      "items": ["16 Chicken Fingers", "Two Large Sides"],
+      "price": "32.89",
+      "title": "16 PIECE MEAL"
+    },
+    {
+      "id": 10,
+      "imgSrc": "img/ItemIcons/PCF24.png",
+      "altText": "24 piece meal",
+      "items": ["24 Chicken Fingers", "Three Large Sides"],
+      "price": "52.89",
+      "title": "24 PIECE MEAL"
+    }
+  ],
+  "ChBurgerMenu": [
+    {
+      "id": 11,
+      "imgSrc": "img/ItemIcons/burg1.png",
+      "altText": "Classic Gary Burger",
+      "items": ["Classic Gary Burger", "One Small Side"],
+      "price": "13.49",
+      "title": "CLASSIC GARY"
+    },
+    {
+      "id": 12,
+      "imgSrc": "img/ItemIcons/burg2.png",
+      "altText": "Little Gary Burger",
+      "items": ["Little Gary Burger", "One Small Side"],
+      "price": "7.49",
+      "title": "LITTLE GARY"
+    },
+    {
+      "id": 13,
+      "imgSrc": "img/ItemIcons/burg3.png",
+      "altText": "Cheese Gary Burger",
+      "items": ["Cheese Gary Burger", "One Large Side"],
+      "price": "12.99",
+      "title": "CHEESE GARY"
+    },
+    {
+      "id": 14,
+      "imgSrc": "img/ItemIcons/burg4.png",
+      "altText": "Great Gary Burger",
+      "items": ["Great Gary Burger", "One Large Side"],
+      "price": "17.89",
+      "title": "GREAT GARY"
+    },
+    {
+      "id": 15,
+      "imgSrc": "img/ItemIcons/burg5.png",
+      "altText": "Gary Taco",
+      "items": ["Gary Taco", "One Small Side"],
+      "price": "12.89",
+      "title": "GARY TACO"
+    }
+  ],
+  "ChNuggetMenu": [
+    {
+      "id": 16,
+      "imgSrc": "img/ItemIcons/CNP6.png",
+      "altText": "6 Chicken Nuggets",
+      "items": ["6 Chicken Nuggets", "One Small Side"],
+      "price": "9.49",
+      "title": "6 NUGGETS"
+    },
+    {
+      "id": 17,
+      "imgSrc": "img/ItemIcons/cnp8.png",
+      "altText": "8 Chicken Nuggets",
+      "items": ["8 Chicken Nuggets", "One Small Side"],
+      "price": "12.49",
+      "title": "8 NUGGETS"
+    },
+    {
+      "id": 18,
+      "imgSrc": "img/ItemIcons/CNP10.png",
+      "altText": "10 Chicken Nuggets",
+      "items": ["10 Chicken Nuggets", "One Large Side"],
+      "price": "15.89",
+      "title": "10 NUGGETS"
+    },
+    {
+      "id": 19,
+      "imgSrc": "img/ItemIcons/CNP12.png",
+      "altText": "12 Chicken Nuggets",
+      "items": ["12 Chicken Nuggets", "One Large Side"],
+      "price": "17.89",
+      "title": "12 NUGGETS"
+    },
+    {
+      "id": 20,
+      "imgSrc": "img/ItemIcons/CNP24.png",
+      "altText": "24 Chicken Nuggets",
+      "items": ["24 Chicken Nuggets", "Two Large Sides"],
+      "price": "29.89",
+      "title": "24 NUGGETS"
+    }
+  ],
+  "SidesMenu": [
+    {
+      "id": 21,
+      "imgSrc": "img/ItemIcons/Side1.png",
+      "altText": "Fried egg",
+      "items": ["One Small Egg", "Fried Gary-Style"],
+      "price": "3.49",
+      "title": "FRIED EGG(S)"
+    },
+    {
+      "id": 22,
+      "imgSrc": "img/ItemIcons/side2.png",
+      "altText": "ONION RINGS",
+      "items": ["Gary's Famous Onion Rings", "Individual Portion"],
+      "price": ["7.49"],
+      "title": "ONION RINGS"
+    },
+    {
+      "id": 23,
+      "imgSrc": "img/ItemIcons/side3.png",
+      "altText": "FRIES",
+      "items": ["Gary-Style Poutine", "Individual Portion"],
+      "price": ["7.49"],
+      "title": "FRIES"
+    },
+    {
+      "id": 24,
+      "imgSrc": "img/ItemIcons/side4.png",
+      "altText": "TATERS",
+      "items": ["Gary-Style Taters", "Individual Portion"],
+      "price": ["7.49"],
+      "title": "TATERS"
+    },
+    {
+      "id": 25,
+      "imgSrc": "img/ItemIcons/side5.png",
+      "altText": "SALAD",
+      "items": ["Large Garden Salad", "Individual Portion"],
+      "price": ["7.49"],
+      "title": "SALAD"
+    }
+  ],
+  "GaryDeals": [
+    {
+      "id": 26,
+      "imgSrc": "img/ItemIcons/DEAL1.png",
+      "altText": "GARY BOX",
+      "items": [],
+      "price": "4.99",
+      "title": "GARY BOX"
+    },
+    {
+      "id": 27,
+      "imgSrc": "img/ItemIcons/DEAL2.png",
+      "altText": "GARY BASKET",
+      "items": [],
+      "price": "14.49",
+      "title": "GARY BASKET"
+    },
+    {
+      "id": 28,
+      "imgSrc": "img/ItemIcons/DEAL3.png",
+      "altText": "GARY BOWL",
+      "items": [],
+      "price": "16.89",
+      "title": "GARY BOWL"
+    },
+    {
+      "id": 29,
+      "imgSrc": "img/ItemIcons/DEAL4.png",
+      "altText": "GREAT GARY",
+      "items": [],
+      "price": "19.99",
+      "title": "GREAT GARY"
+    },
+    {
+      "id": 30,
+      "imgSrc": "img/ItemIcons/DEAL5.png",
+      "altText": "FRESH GARY",
+      "items": [],
+      "price": "500.49",
+      "title": "FRESH GARY"
+    }
+  ]
+}
