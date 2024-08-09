@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import MenuItem from "./MenuItem";
-import { getMenuItemsByCategory } from "./MenuApi";
+import MenuItem from "../Common/MenuItem";
+import { getMenuItemsByCategory } from "../Common/MenuApi";
 
 const categories = [
   "friedChicken",

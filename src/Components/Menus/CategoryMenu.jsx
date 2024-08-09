@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
-import MenuItem from "./MenuItem";
-import { getMenuItemsByCategory } from "./MenuApi";
+import MenuItem from "../Common/MenuItem";
+import { getMenuItemsByCategory } from "../Common/MenuApi";
 
-const GaryDeals = () => {
+const ChickenMenu = () => {
   const [menuItems, setMenuItems] = useState([]);
 
   useEffect(() => {
     const fetchMenuItems = () => {
-      const data = getMenuItemsByCategory("GaryDeals");
+      const data = getMenuItemsByCategory("friedChicken");
       setMenuItems(data);
     };
 
@@ -16,7 +16,7 @@ const GaryDeals = () => {
 
   return (
     <div className="bigmenu-item">
-      <img src="img/Menu/GaryDeals.png" alt="Chicken Nuggets" />
+      <img src="img/Menu/FriedChicken.png" alt="fried chicken" />
       <div className="menuitemboxcontainer" alt="menu items wrapper">
         {menuItems.map((menuItem) => (
           <MenuItem key={menuItem.id} {...menuItem} />
@@ -26,4 +26,4 @@ const GaryDeals = () => {
   );
 };
 
-export default GaryDeals;
+export default ChickenMenu;

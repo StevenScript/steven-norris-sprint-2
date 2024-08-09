@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import OrderMenu from "./OrderMenu";
 import Cart from "./Cart";
-import { getMenuItemsByCategory } from "./MenuApi";
-import { useCart } from "./CartContext";
+import { getMenuItemsByCategory } from "../Common/MenuApi";
+import { useCart } from "../Common/CartContext";
 
 const categories = [
   "friedChicken",

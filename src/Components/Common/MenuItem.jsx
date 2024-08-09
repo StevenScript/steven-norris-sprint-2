@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useCart } from "./CartContext"; // Adjust the path as needed
+import { useCart } from "./CartContext";
 
 const MenuItem = ({ id, imgSrc, altText, items, price, title }) => {
   const { addToCart } = useCart();

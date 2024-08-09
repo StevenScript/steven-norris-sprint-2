@@ -1,7 +1,7 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import Cart from "./Cart";
-import { CartProvider } from "./CartContext";
+import { CartProvider } from "../Menus/Common/CartContext";
 
 test("renders Cart with items and total", () => {
   render(

@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
-import MenuItem from "./MenuItem";
-import { getMenuItemsByCategory } from "./MenuApi";
+import MenuItem from "../Common/MenuItem";
+import { getMenuItemsByCategory } from "../Common/MenuApi";
 
-const ChNuggetsMenu = () => {
+const SidesMenu = () => {
   const [menuItems, setMenuItems] = useState([]);
 
   useEffect(() => {
     const fetchMenuItems = () => {
-      const data = getMenuItemsByCategory("ChNuggetMenu");
+      const data = getMenuItemsByCategory("SidesMenu");
       setMenuItems(data);
     };
 
@@ -16,7 +16,7 @@ const ChNuggetsMenu = () => {
 
   return (
     <div className="bigmenu-item">
-      <img src="img/Menu/ChickenNuggets.png" alt="Chicken Nuggets" />
+      <img src="img/Menu/Sides.png" alt="Sides" />
       <div className="menuitemboxcontainer" alt="menu items wrapper">
         {menuItems.map((menuItem) => (
           <MenuItem key={menuItem.id} {...menuItem} />
@@ -26,4 +26,4 @@ const ChNuggetsMenu = () => {
   );
 };
 
-export default ChNuggetsMenu;
+export default SidesMenu;

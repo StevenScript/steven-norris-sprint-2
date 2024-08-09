@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import MenuItem from "./MenuItem";
-import { getMenuItemsByCategory } from "./MenuApi";
+import MenuItem from "../Common/MenuItem";
+import { getMenuItemsByCategory } from "../Common/MenuApi";
 
 const ChickenMenu = () => {
   const [menuItems, setMenuItems] = useState([]);
@@ -16,7 +16,7 @@ const ChickenMenu = () => {
 
   return (
     <div className="bigmenu-item">
-      <img src="img/Menu/FriedChicken.png" alt="fried chicken" />
+      <img src="img/Menu/FriedChicken.png" alt="Fried Chicken" />
       <div className="menuitemboxcontainer" alt="menu items wrapper">
         {menuItems.map((menuItem) => (
           <MenuItem key={menuItem.id} {...menuItem} />

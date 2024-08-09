@@ -1,24 +1,24 @@
 import "./App.css";
-import Header from "./Components/Header";
-import ItemCarousel from "./Components/ItemCarousel";
-import Footer from "./Components/Footer";
-import ChickenMenu from "./Components/ChickenMenu";
-import ChFingerMenu from "./Components/ChFingerMenu";
-import ChBurgerMenu from "./Components/ChBurgerMenu";
-import NuggetsMenu from "./Components/NuggetsMenu";
-import SidesMenu from "./Components/SidesMenu";
-import GaryDeals from "./Components/GaryDeals";
+import NavBar from "./Components/NavBar";
 import OrderPage from "./Components/OrderPage";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import { CartProvider } from "./Components/CartContext";
+import {
+  ItemCarousel,
+  ChickenMenu,
+  ChFingerMenu,
+  ChBurgerMenu,
+  NuggetsMenu,
+  SidesMenu,
+  GaryDeals,
+} from "./Components/Menus";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { CartProvider } from "./Components/Common/CartContext";
 
 function App() {
   return (
     <div className="App">
       <CartProvider>
         <Router>
-          <Header />
-          <Footer />
+          <NavBar />
           <Routes>
             <Route path="/" element={<ItemCarousel />} />
             <Route path="/Index" element={<ItemCarousel />} />
