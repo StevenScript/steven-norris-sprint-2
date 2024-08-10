@@ -10,7 +10,7 @@ import {
   SidesMenu,
   GaryDeals,
 } from "./Components/Menus";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { CartProvider } from "./Components/Common/CartContext";
 
 function App() {

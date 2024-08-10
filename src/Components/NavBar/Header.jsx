@@ -25,7 +25,7 @@ const Header = () => {
           <Link to="/chicken-menu">
             <NavbarButton text="MENU" />
           </Link>
-          <Link to="/chicken-menu">
+          <Link to="/Gary-Deals">
             <NavbarButton text="OFFERS" />
           </Link>
         </div>
