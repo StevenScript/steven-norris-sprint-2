@@ -7,7 +7,7 @@ const ChFingerMenu = () => {
 
   useEffect(() => {
     const fetchMenuItems = () => {
-      const data = getMenuItemsByCategory("friedChicken");
+      const data = getMenuItemsByCategory("ChFingerMenu");
       setMenuItems(data);
     };
 

@@ -311,7 +311,7 @@ const menuItems = {
       imgSrc: "img/ItemIcons/DEAL1.png",
       altText: "GARY BOX",
       items: [],
-      price: "4.99",
+      price: "34.99",
       title: "GARY BOX",
       orderLink:
         "order.html?itemId=26&itemName=Gary%20Box%20Deal&itemPrice=34.99",
